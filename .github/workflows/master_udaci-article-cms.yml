@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'udaci-article-cms'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_985e8bdfc9c14dbf9e2b785facca9584 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_ddcdc38f742b407fa721a3402a5faa3f }}
