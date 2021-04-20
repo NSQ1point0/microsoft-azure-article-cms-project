@@ -6,7 +6,7 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'articleimages'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'CwtOLHLU6zoAj4Yh7iG9r/ho3Z28cw01MuORmtKILYiJatcVdRoc+qq8ZoC4x2Bi9jaKs0G0UhO31hSduw4siw=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'AZMaxedvY5gz79LE3eJQ/lr/cTXj/6Ye3dV41QSmGDODyol2l/F76o80k7xYVOdnNH7vXDd7AyE4e6Sq66XiGA=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'udaci-article.database.windows.net'
