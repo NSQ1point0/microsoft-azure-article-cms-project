@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - udaci-article
+name: Build and deploy Python app to Azure Web App - nsq1-article-cms
 
 on:
   push:
@@ -57,6 +57,6 @@ jobs:
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'udaci-article'
+          app-name: 'nsq1-article-cms'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_53f9c4760b804df59e27a3506dc6c6d2 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_b7376c67b6f4438795aab55809232e50 }}
