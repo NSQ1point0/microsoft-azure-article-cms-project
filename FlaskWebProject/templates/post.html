@@ -29,9 +29,9 @@
             </p>
             <p>{{ form.submit() }}</p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-6">
             {% if form.image_path.data %}
-            <p><img src="{{ imageSource + form.image_path.data }}" width="250" height="250" /></p>
+            <p><img src="{{ imageSource + form.image_path.data }}" width="100%" height="auto" /></p>
             {% endif %}
             <p>
                 {{ form.image_path.label }}<br>
