@@ -13,6 +13,16 @@ from FlaskWebProject.models import User, Post
 import msal
 import uuid
 import logging
+from flask import Flask
+
+app = Flask(__name__)
+wsgi_app = app wsgi_app
+app.logger.setLevel(logging.INFO)
+streamHandler = logging.StreamHandler()
+streamHandler.setLevel(logging.INFO)
+app.logger.addHandler(streamHandler)
+
+import FlaskExercise.views
 
 imageSourceUrl = 'https://'+ app.config['BLOB_ACCOUNT']  + '.blob.core.windows.net/' + app.config['BLOB_CONTAINER']  + '/'
 
