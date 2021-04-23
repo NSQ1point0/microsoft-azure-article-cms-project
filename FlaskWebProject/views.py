@@ -16,7 +16,7 @@ import logging
 from flask import Flask
 
 app = Flask(__name__)
-wsgi_app = app wsgi_app
+wsgi_app = app.wsgi_app
 app.logger.setLevel(logging.INFO)
 streamHandler = logging.StreamHandler()
 streamHandler.setLevel(logging.INFO)
