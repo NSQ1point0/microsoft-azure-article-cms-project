@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'wolf-article-cms'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_15f3904ab8fe44c5873278b1fb8be801 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_7285e82df8a04401a4e5ac567a25bd52 }}
